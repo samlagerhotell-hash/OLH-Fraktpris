@@ -1,0 +1,27 @@
+﻿OLH Fraktpris
+=============
+Fraktpris for pakker i Norge fra våre Profrakt-avtaler (Bring og PostNord).
+Viser full pris (listepris + tillegg), vår kostnad (avtalepris inkl. drivstoff og bom)
+og vår pris (kostnad + 10 %). Alle priser i NOK eks. mva. Kun Norge.
+
+Installere (én gang)
+1. Last ned: github.com/samlagerhotell-hash/OLH-Fraktpris > grønn "Code"-knapp > Download ZIP.
+2. Pakk ut zip-filen (høyreklikk > Pakk ut alle). Ikke kjør fra inne i zip-filen.
+3. Dobbeltklikk Install.cmd. Trenger ikke administrator.
+4. Når den spør: lim inn Profrakt API-nøkkelen (Profrakt > Innstillinger > API,
+   app.profrakt.no/settings/api). Høyreklikk limer inn. Nøkkelen vises ikke, det er normalt.
+   IKKE lag ny nøkkel eller tilbakestill den: Ongoing bruker samme nøkkel.
+5. Dobbeltklikk "OLH Fraktpris" på skrivebordet. Den utpakkede mappen kan slettes etterpå.
+
+Oppdateringer
+Appen sjekker selv etter ny versjon hver gang den åpnes og oppdaterer seg automatisk.
+Versjonsnummeret står i tittellinjen.
+
+Bruk
+Fyll inn postnummer, vekt, mål (cm), antall kolli og retning (ut fra lageret / retur),
+og trykk Beregn pris (eller Enter). Billigste først. "Fakt. kg" er vekten vi betaler for
+(volumvekt kan gjøre en lett pakke dyrere). Under tabellen står produkter som ikke er
+tilgjengelige, og hvorfor (for stor/tung, eller leveres ikke til postnummeret).
+
+Avinstallere: dobbeltklikk Uninstall.cmd (fra den utpakkede mappen).
+Feil? Send teksten som står nederst i vinduet til Sam.
